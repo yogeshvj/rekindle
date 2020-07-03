@@ -1,0 +1,107 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.reKindle.controller.Features" xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:tnt="sap.tnt" xmlns:layout="sap.ui.commons.layout">
+    <Page showHeader="true" title="" showFooter="false" showNavButton="true" enableScrolling="false" navButtonPress="_onPageNavButtonPress">
+        <content>
+            <layout:AbsoluteLayout horizontalScrolling="Hidden" verticalScrolling="Auto">
+                <layout:positions>
+                    <layout:PositionContainer left="842px" top="471px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://puzzle" size="110px" color="grey" height="110px" width="110px" activeColor="green" hoverColor="yellow" visible="true" tooltip="Browse through our content" press="_onIconPress"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="350px" top="472px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://theater" size="110px" color="grey" height="110px" width="110px" activeColor="green" hoverColor="yellow" visible="true" tooltip="See list of upcoming events" press="_onIconPress1"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="270px" top="248px">
+                        <layout:control>
+                            <Title text="Connect with the elderly" titleStyle="H1" width="auto" textAlign="Center" visible="true" wrapping="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="239px" top="298px">
+                        <layout:control>
+                            <Title text="Use our Chat, Audio and Video call space to interact and learn invaluable lessons from the elderly" titleStyle="H3" width="340px" textAlign="Center" visible="true" wrapping="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="1225px" top="5px">
+                        <layout:control>
+                            <tnt:NavigationList width="48px" expanded="false">
+                                <tnt:items>
+                                    <tnt:NavigationListItem icon="sap-icon://menu2" expanded="false" hasExpander="false" text="Menu">
+                                        <tnt:items>
+                                            <tnt:NavigationListItem expanded="true" hasExpander="true" text="Login/ SignUp" select="_onNavigationListItemFirstLevelSelect"/>
+                                            <tnt:NavigationListItem expanded="true" hasExpander="true" text="Home"/>
+                                            <tnt:NavigationListItem expanded="true" hasExpander="true" text="About Us" select="_onNavigationListItemFirstLevelSelect1"/>
+                                            <tnt:NavigationListItem expanded="true" hasExpander="true" text="Our Features" select="_onNavigationListItemFirstLevelSelect2"/>
+                                            <tnt:NavigationListItem expanded="true" hasExpander="true" text="Contact Us" select="_onNavigationListItemFirstLevelSelect3"/>
+                                        </tnt:items>
+                                    </tnt:NavigationListItem>
+                                </tnt:items>
+                            </tnt:NavigationList>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="350px" top="120px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://video" size="110px" color="grey" height="110px" width="110px" activeColor="green" hoverColor="yellow" backgroundColor="" visible="true" tooltip="See how can you connect" press="_onIconPress2"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="841px" top="120px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://retail-store-manager" size="110px" color="grey" height="110px" width="110px" activeColor="green" hoverColor="yellow" visible="true" tooltip="Checkout our store!" press="_onIconPress3"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="729px" top="677px">
+                        <layout:control>
+                            <Title text="Watch Curated Videos where the elderly share stories, some life lessons and teach some fun tricks they have up their sleeves" titleStyle="H3" width="340px" textAlign="Center" visible="true" wrapping="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="835px" top="628px">
+                        <layout:control>
+                            <Title text="Life Hacks" titleStyle="H1" width="auto" textAlign="Center" visible="true" wrapping="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="238px" top="672px">
+                        <layout:control>
+                            <Title text="Experience fun virtual events, meetups, celebrations, and many more. Fundraising concerts by our elderlies" titleStyle="H3" width="340px" textAlign="Center" visible="true" wrapping="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="286px" top="622px">
+                        <layout:control>
+                            <Title text="Live virtual events" titleStyle="H1" width="246.3125px" textAlign="Center" visible="true" wrapping="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="724px" top="301px">
+                        <layout:control>
+                            <Title text="Buy one of a kind products from our online store - Handcrafted with love by our elderlies" titleStyle="H3" width="340px" textAlign="Center" visible="true" wrapping="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="765px" top="255px">
+                        <layout:control>
+                            <Title text="Premium Merchandise" titleStyle="H1" width="auto" textAlign="Center" visible="true" wrapping="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="9px" top="7px">
+                        <layout:control>
+                            <Image src="/webapp/resources/LogoBird_TransparentBG.png" height="60px" width="40px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="55px" top="10px">
+                        <layout:control>
+                            <Image src="/webapp/resources/Rekindle_Text_Only.png" height="62.3125px" width="125.3125px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                </layout:positions>
+            </layout:AbsoluteLayout>
+        </content>
+        <footer>
+            <OverflowToolbar width="100%" height="46px" design="Auto" enabled="true" visible="true">
+                <content>
+                    <Button text="Back" type="Back" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress"/>
+                </content>
+            </OverflowToolbar>
+        </footer>
+        <headerContent/>
+        <subHeader/>
+        <customHeader/>
+    </Page>
+</mvc:View>

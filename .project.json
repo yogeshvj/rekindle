@@ -1,0 +1,55 @@
+{
+    "dataBinding": {
+        "/webapp/view/Features.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/AboutUs.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/LoginPage.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/ContactUs.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/UserDashboard.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/BuyProducts.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/LiveEvents.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/BrowseVideos.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/PartnerDashboard.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/Home2.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/QuickView1.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/Popover1.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/Dialog2.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/ActionSheet3.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/ActionSheet2.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/ActionSheet1.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/Dialog1.view.xml": {
+            "entitySet": ""
+        } 
+    }
+}

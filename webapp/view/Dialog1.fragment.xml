@@ -1,0 +1,14 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" controllerName="com.sap.build.standard.reKindle.controller.Dialog1" xmlns="sap.m">
+    <Dialog horizontalScrolling="true" icon="sap-icon://date-time" showHeader="true" state="None" stretch="false" title="Preferred Time Slot" type="Standard" verticalScrolling="true">
+        <content>
+            <Title text="1-2 PM, 5-6 PM" titleStyle="H4" width="150px" textAlign="Begin" visible="true" wrapping="true"/>
+        </content>
+        <beginButton/>
+        <buttons>
+            <Button text="OK" type="Default" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress"/>
+        </buttons>
+        <customHeader/>
+        <endButton/>
+        <subHeader/>
+    </Dialog>
+</core:FragmentDefinition>

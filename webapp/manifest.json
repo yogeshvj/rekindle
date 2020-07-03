@@ -1,0 +1,255 @@
+{
+	"_version": "1.8.0",
+	"sap.app": {
+		"_version": "1.3.0",
+		"id": "com.sap.build.standard.reKindle",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"applicationVersion": {
+			"version": "1.2.2"
+		},
+		"dataSources": {
+			"local": {
+				"uri": "/here/goes/your/serviceUrl/local/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/metadata.xml"
+				}
+			}
+		},
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"ach": "ach",
+		"resources": "resources.json",
+		"sourceTemplate": {
+			"id": "ui5template.basicSAPUI5ApplicationProject",
+			"version": "1.32.0"
+		}
+	},
+	"sap.ui": {
+		"_version": "1.3.0",
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		}
+	},
+	"sap.ui5": {
+		"_version": "1.3.0",
+		"rootView": {
+			"viewName": "generated.app.view.Home2",
+			"type": "XML"
+		},
+		"dependencies": {
+			"minUI5Version": "1.50.0",
+			"libs": {
+				"sap.ui.core": {},
+				"sap.m": {},
+				"sap.ui.layout": {}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"uri": "i18n/i18n.properties"
+			},
+			"": {
+				"dataSource": "local",
+				"type": "sap.ui.model.odata.v2.ODataModel",
+				"settings": {
+					"loadMetadataAsync": false,
+					"json": true,
+					"bJSON": true,
+					"defaultBindingMode": "TwoWay",
+					"defaultCountMode": "Inline",
+					"useBatch": true,
+					"refreshAfterChange": false,
+					"disableHeadRequestForToken": true
+				}
+			}
+		},
+		"resources": {
+			"css": []
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"viewPath": "com.sap.build.standard.reKindle.view",
+				"controlId": "App",
+				"clearTarget": false,
+				"controlAggregation": "pages",
+				"bypassed": {
+					"target": [
+						"Features"
+					]
+				}
+			},
+			"targets": {
+				"Features": {
+					"controlAggregation": "pages",
+					"viewName": "Features",
+					"viewId": "Features",
+					"viewLevel": 1,
+					"transition": "show"
+				},
+				"AboutUs": {
+					"controlAggregation": "pages",
+					"viewName": "AboutUs",
+					"viewId": "AboutUs",
+					"viewLevel": 1,
+					"transition": "show"
+				},
+				"LoginPage": {
+					"controlAggregation": "pages",
+					"viewName": "LoginPage",
+					"viewId": "LoginPage",
+					"viewLevel": 1,
+					"transition": "show"
+				},
+				"ContactUs": {
+					"controlAggregation": "pages",
+					"viewName": "ContactUs",
+					"viewId": "ContactUs",
+					"viewLevel": 1,
+					"transition": "show"
+				},
+				"UserDashboard": {
+					"controlAggregation": "pages",
+					"viewName": "UserDashboard",
+					"viewId": "UserDashboard",
+					"viewLevel": 1,
+					"transition": "show"
+				},
+				"BuyProducts": {
+					"controlAggregation": "pages",
+					"viewName": "BuyProducts",
+					"viewId": "BuyProducts",
+					"viewLevel": 1,
+					"transition": "slide"
+				},
+				"LiveEvents": {
+					"controlAggregation": "pages",
+					"viewName": "LiveEvents",
+					"viewId": "LiveEvents",
+					"viewLevel": 1,
+					"transition": "show"
+				},
+				"BrowseVideos": {
+					"controlAggregation": "pages",
+					"viewName": "BrowseVideos",
+					"viewId": "BrowseVideos",
+					"viewLevel": 1,
+					"transition": "show"
+				},
+				"PartnerDashboard": {
+					"controlAggregation": "pages",
+					"viewName": "PartnerDashboard",
+					"viewId": "PartnerDashboard",
+					"viewLevel": 1,
+					"transition": "show"
+				},
+				"Home2": {
+					"controlAggregation": "pages",
+					"viewName": "Home2",
+					"viewId": "Home2",
+					"viewLevel": 1,
+					"transition": "fade"
+				}
+			},
+			"routes": [
+				{
+					"pattern": "Features/:context:",
+					"name": "Features",
+					"target": [
+						"Features"
+					]
+				},
+				{
+					"pattern": "",
+					"name": "default",
+					"target": [
+						"Features"
+					]
+				},
+				{
+					"pattern": "AboutUs/:context:",
+					"name": "AboutUs",
+					"target": [
+						"AboutUs"
+					]
+				},
+				{
+					"pattern": "LoginPage/:context:",
+					"name": "LoginPage",
+					"target": [
+						"LoginPage"
+					]
+				},
+				{
+					"pattern": "ContactUs/:context:",
+					"name": "ContactUs",
+					"target": [
+						"ContactUs"
+					]
+				},
+				{
+					"pattern": "UserDashboard/:context:",
+					"name": "UserDashboard",
+					"target": [
+						"UserDashboard"
+					]
+				},
+				{
+					"pattern": "BuyProducts/:context:",
+					"name": "BuyProducts",
+					"target": [
+						"BuyProducts"
+					]
+				},
+				{
+					"pattern": "LiveEvents/:context:",
+					"name": "LiveEvents",
+					"target": [
+						"LiveEvents"
+					]
+				},
+				{
+					"pattern": "BrowseVideos/:context:",
+					"name": "BrowseVideos",
+					"target": [
+						"BrowseVideos"
+					]
+				},
+				{
+					"pattern": "PartnerDashboard/:context:",
+					"name": "PartnerDashboard",
+					"target": [
+						"PartnerDashboard"
+					]
+				},
+				{
+					"pattern": "Home2/:context:",
+					"name": "Home2",
+					"target": [
+						"Home2"
+					]
+				}
+			]
+		}
+	}
+}

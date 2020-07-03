@@ -1,0 +1,117 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.reKindle.controller.AboutUs" xmlns="sap.m" xmlns:tnt="sap.tnt" xmlns:core="sap.ui.core" xmlns:layout="sap.ui.commons.layout">
+    <Page showHeader="true" title="" showFooter="false" showNavButton="true" enableScrolling="false" navButtonPress="_onPageNavButtonPress">
+        <content>
+            <layout:AbsoluteLayout horizontalScrolling="Hidden" verticalScrolling="Auto">
+                <layout:positions>
+                    <layout:PositionContainer left="8px" top="4px">
+                        <layout:control>
+                            <Image src="/webapp/resources/LogoBird_TransparentBG.png" height="60px" width="40px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="56px" top="6px">
+                        <layout:control>
+                            <Image src="/webapp/resources/Rekindle_Text_Only.png" height="62.67499923706055px" width="132.3125px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="1225px" top="3px">
+                        <layout:control>
+                            <tnt:NavigationList width="48px" expanded="false">
+                                <tnt:items>
+                                    <tnt:NavigationListItem icon="sap-icon://menu2" expanded="false" hasExpander="false" text="Menu">
+                                        <tnt:items>
+                                            <tnt:NavigationListItem expanded="true" hasExpander="true" text="Login/ SignUp" select="_onNavigationListItemFirstLevelSelect"/>
+                                            <tnt:NavigationListItem expanded="true" hasExpander="true" text="Home"/>
+                                            <tnt:NavigationListItem expanded="true" hasExpander="true" text="About Us" select="_onNavigationListItemFirstLevelSelect1"/>
+                                            <tnt:NavigationListItem expanded="true" hasExpander="true" text="Our Features" select="_onNavigationListItemFirstLevelSelect2"/>
+                                            <tnt:NavigationListItem expanded="true" hasExpander="true" text="Contact Us" select="_onNavigationListItemFirstLevelSelect3"/>
+                                        </tnt:items>
+                                    </tnt:NavigationListItem>
+                                </tnt:items>
+                            </tnt:NavigationList>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="584px" top="43px">
+                        <layout:control>
+                            <Title text="Who We Are" titleStyle="H2" width="auto" textAlign="Begin" visible="true" wrapping="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="439px" top="361px">
+                        <layout:control>
+                            <Title text="&quot;Small changes with a big difference&quot;" titleStyle="H1" width="auto" textAlign="Center" visible="true" wrapping="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="540px" top="611px">
+                        <layout:control>
+                            <Title text="Our Team" titleStyle="H1" width="200px" textAlign="Center" visible="true" wrapping="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="552px" top="102px">
+                        <layout:control>
+                            <Title text="This is Our Story" titleStyle="H1" width="auto" textAlign="Begin" visible="true" wrapping="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="202px" top="154px">
+                        <layout:control>
+                            <Title text="Chandni, one of our founders was really close to her grandmother who she lost in August 2019. She was devastated and directionless for some time. There happened to be an old age home near her house which she started visiting. She went there a couple of times but then it couldn't be possible often due to work. That is when the idea of connecting with the elderly online came to her, wherein our interactions are not limited by physical boundaries. She then spoke to a few friends and they resonated with the same thoughts and that is how we all got together and Rekindle was born." titleStyle="H3" width="900px" textAlign="Center" visible="true" wrapping="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="204px" top="415px">
+                        <layout:control>
+                            <Title text="We wish to make this world more inclusive for the elderly with Rekindle.  Rekindle is a discovery and connecting platform which enables users worldwide to connect with our partners. A highly simplified and secure user experience to ensure ease of access for our partners. Our platform supports chats, audio, and video calls to engage and have meaningful conversations with a built-in recommendation engine that matches people based on their areas of interest and preferences." titleStyle="H3" width="900px" textAlign="Center" visible="true" wrapping="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="203px" top="703px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://person-placeholder" size="100px" height="100px" width="100px" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="957px" top="703px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://person-placeholder" size="100px" height="100px" width="100px" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="705px" top="704px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://person-placeholder" size="100px" height="100px" width="100px" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="455px" top="703px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://person-placeholder" size="100px" height="100px" width="100px" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="685px" top="830px">
+                        <layout:control>
+                            <Title text="Priyanka Gupta" titleStyle="H2" width="auto" textAlign="Center" visible="true" wrapping="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="446px" top="830px">
+                        <layout:control>
+                            <Title text="Mohit Kumar" titleStyle="H2" width="auto" textAlign="Center" visible="true" wrapping="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="177px" top="828px">
+                        <layout:control>
+                            <Title text="Chandni Jaswal" titleStyle="H2" width="auto" textAlign="Center" visible="true" wrapping="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="953px" top="829px">
+                        <layout:control>
+                            <Title text="Yogesh Vijay" titleStyle="H2" width="auto" textAlign="Center" visible="true" wrapping="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                </layout:positions>
+            </layout:AbsoluteLayout>
+        </content>
+        <footer>
+            <OverflowToolbar width="100%" height="46px" design="Auto" enabled="true" visible="true">
+                <content>
+                    <Button text="Back" type="Back" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress"/>
+                </content>
+            </OverflowToolbar>
+        </footer>
+        <headerContent/>
+        <subHeader/>
+        <customHeader/>
+    </Page>
+</mvc:View>

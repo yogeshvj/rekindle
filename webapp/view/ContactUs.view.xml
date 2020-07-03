@@ -1,0 +1,135 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.reKindle.controller.ContactUs" xmlns="sap.m" xmlns:tnt="sap.tnt" xmlns:core="sap.ui.core" xmlns:layout="sap.ui.commons.layout">
+    <Page showHeader="true" title="" showFooter="true" showNavButton="true" enableScrolling="false" navButtonPress="_onPageNavButtonPress">
+        <content>
+            <layout:AbsoluteLayout horizontalScrolling="Hidden" verticalScrolling="Auto">
+                <layout:positions>
+                    <layout:PositionContainer left="6px" top="3px">
+                        <layout:control>
+                            <Image src="/webapp/resources/LogoBird_TransparentBG.png" height="60px" width="40px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="54px" top="8px">
+                        <layout:control>
+                            <Image src="/webapp/resources/Rekindle_Text_Only.png" height="60px" width="133px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="1224px" top="4px">
+                        <layout:control>
+                            <tnt:NavigationList width="48px" expanded="false">
+                                <tnt:items>
+                                    <tnt:NavigationListItem icon="sap-icon://menu2" expanded="false" hasExpander="false" text="Menu">
+                                        <tnt:items>
+                                            <tnt:NavigationListItem expanded="true" hasExpander="true" text="Login/ SignUp" select="_onNavigationListItemFirstLevelSelect"/>
+                                            <tnt:NavigationListItem expanded="true" hasExpander="true" text="Home"/>
+                                            <tnt:NavigationListItem expanded="true" hasExpander="true" text="About Us" select="_onNavigationListItemFirstLevelSelect1"/>
+                                            <tnt:NavigationListItem expanded="true" hasExpander="true" text="Our Features" select="_onNavigationListItemFirstLevelSelect2"/>
+                                            <tnt:NavigationListItem expanded="true" hasExpander="true" text="Contact Us" select="_onNavigationListItemFirstLevelSelect3"/>
+                                        </tnt:items>
+                                    </tnt:NavigationListItem>
+                                </tnt:items>
+                            </tnt:NavigationList>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="238px" top="133px">
+                        <layout:control>
+                            <Image src="/webapp/resources/contactus.png" height="245.84375px" width="799.296875px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="685px" top="679px">
+                        <layout:control>
+                            <GenericTile header="" subheader="" frameType="TwoByOne">
+                                <tileContent/>
+                            </GenericTile>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="766px" top="742px">
+                        <layout:control>
+                            <Title text="Follow us on:" titleStyle="H3" width="200px" textAlign="Center" visible="true" wrapping="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="804px" top="690px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://feed" size="32px" color="grey" height="35px" width="114px" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="263px" top="680px">
+                        <layout:control>
+                            <GenericTile header="" subheader="" frameType="TwoByOne">
+                                <tileContent/>
+                            </GenericTile>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="342px" top="753px">
+                        <layout:control>
+                            <Title text="Write to us on:" titleStyle="H3" width="200px" textAlign="Center" visible="true" wrapping="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="295px" top="787px">
+                        <layout:control>
+                            <Title text="care.rekindle@gmail.com" titleStyle="H3" width="300px" textAlign="Center" visible="true" wrapping="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="384px" top="691px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://email" size="32px" color="grey" height="35px" width="114px" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="733px" top="460px">
+                        <layout:control>
+                            <GenericTile header="" subheader="" frameType="OneByOne">
+                                <tileContent/>
+                            </GenericTile>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="749px" top="539px">
+                        <layout:control>
+                            <Title text="+91-xx-xx-8901 +91-xx-xx-3010" titleStyle="H3" width="150px" textAlign="Center" visible="true" wrapping="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="765px" top="473px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://phone" size="32px" color="grey" height="35px" width="114px" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="835px" top="779px">
+                        <layout:control>
+                            <Link href="https://twitter.com/CareRekindle" text="Twitter" textAlign="Begin" width="auto" target="_blank" wrapping="false" enabled="true" visible="true" emphasized="true" subtle="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="400px" top="458px">
+                        <layout:control>
+                            <GenericTile header="" subheader="" frameType="OneByOne">
+                                <tileContent/>
+                            </GenericTile>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="419px" top="472px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://home" size="35px" color="grey" height="35px" width="114px" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="826px" top="801px">
+                        <layout:control>
+                            <Link href="https://www.instagram.com/care.rekindle/" text="Instagram" textAlign="Center" width="auto" target="_blank" wrapping="false" enabled="true" visible="true" emphasized="true" subtle="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="428px" top="530px">
+                        <layout:control>
+                            <Title text="SAP Labs, Vatika Tower, Sector 54, Gurgaon" titleStyle="H3" width="117.00000000px" textAlign="Center" visible="true" wrapping="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                </layout:positions>
+            </layout:AbsoluteLayout>
+        </content>
+        <footer>
+            <OverflowToolbar width="100%" height="46px" design="Auto" enabled="true" visible="false">
+                <content>
+                    <Button text="Back" type="Back" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress"/>
+                </content>
+            </OverflowToolbar>
+        </footer>
+        <headerContent/>
+        <subHeader/>
+        <customHeader/>
+    </Page>
+</mvc:View>

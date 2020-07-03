@@ -1,0 +1,324 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.reKindle.controller.UserDashboard" xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:layout="sap.ui.commons.layout">
+    <Page showHeader="true" title="" showFooter="true" showNavButton="false" enableScrolling="false">
+        <content>
+            <layout:AbsoluteLayout horizontalScrolling="Hidden" verticalScrolling="Auto">
+                <layout:positions>
+                    <layout:PositionContainer left="666px" top="143px">
+                        <layout:control>
+                            <GenericTile header="Sudha Nagpal" subheader="Indore" frameType="TwoByOne">
+                                <tileContent/>
+                            </GenericTile>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="764px" top="238px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://video" size="25px" color="green" height="25px" width="25px" activeColor="orange" hoverColor="blue" visible="true" tooltip="Schedule video call"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="683px" top="239px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://comment" size="25px" color="green" height="25px" width="25px" activeColor="orange" hoverColor="blue" visible="true" tooltip="Chat"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="725px" top="238px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://outgoing-call" size="25px" color="green" height="25px" width="25px" activeColor="orange" hoverColor="blue" visible="true" tooltip="Schedule voice call"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="806px" top="237px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://date-time" size="25px" color="green" height="25px" width="25px" activeColor="orange" hoverColor="blue" visible="true" tooltip="See Preferred Timings" press="_onIconPress"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="682px" top="278px">
+                        <layout:control>
+                            <Title text="Loves to cook" titleStyle="H5" width="200px" textAlign="Begin" visible="true" wrapping="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="666px" top="397px">
+                        <layout:control>
+                            <GenericTile header="Pratibha" subheader="Allahabad" frameType="TwoByOne">
+                                <tileContent/>
+                            </GenericTile>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="678px" top="526px">
+                        <layout:control>
+                            <Title text="Likes to play cards, watch televison" titleStyle="H5" width="200px" textAlign="Begin" visible="true" wrapping="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="188px" top="395px">
+                        <layout:control>
+                            <GenericTile header="Mr. Chaterjee" subheader="Kolkata" frameType="TwoByOne">
+                                <tileContent/>
+                            </GenericTile>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="760px" top="487px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://video" size="25px" color="green" height="25px" width="25px" activeColor="orange" hoverColor="blue" visible="true" tooltip="Schedule video call"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="190px" top="623px">
+                        <layout:control>
+                            <GenericTile header="Albert Pinto" subheader="Goa" frameType="TwoByOne">
+                                <tileContent/>
+                            </GenericTile>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="681px" top="488px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://comment" size="25px" color="green" height="25px" width="25px" activeColor="orange" hoverColor="blue" visible="true" tooltip="Chat"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="719px" top="489px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://outgoing-call" size="25px" color="green" height="25px" width="25px" activeColor="orange" hoverColor="blue" visible="true" tooltip="Schedule voice call"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="207px" top="202px">
+                        <layout:control>
+                            <Title text="65 yrs" titleStyle="H4" width="131.59375px" textAlign="Begin" visible="true" wrapping="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="803px" top="488px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://date-time" size="25px" color="green" height="25px" width="25px" activeColor="orange" hoverColor="blue" visible="true" tooltip="See Preferred Timings" press="_onIconPress1"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="681px" top="689px">
+                        <layout:control>
+                            <Title text="65 yrs" titleStyle="H4" width="131.59375px" textAlign="Begin" visible="true" wrapping="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="679px" top="689px">
+                        <layout:control>
+                            <Title text="65 yrs" titleStyle="H4" width="131.59375px" textAlign="Begin" visible="true" wrapping="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="681px" top="458px">
+                        <layout:control>
+                            <Title text="70 yrs" titleStyle="H4" width="131.59375px" textAlign="Begin" visible="true" wrapping="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="682px" top="205px">
+                        <layout:control>
+                            <Title text="69 yrs" titleStyle="H4" width="131.59375px" textAlign="Begin" visible="true" wrapping="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="203px" top="459px">
+                        <layout:control>
+                            <Title text="69 yrs" titleStyle="H4" width="131.59375px" textAlign="Begin" visible="true" wrapping="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="206px" top="684px">
+                        <layout:control>
+                            <Title text="73 yrs" titleStyle="H4" width="131.59375px" textAlign="Begin" visible="true" wrapping="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="668px" top="622px">
+                        <layout:control>
+                            <GenericTile header="Reeta Goyal" subheader="Delhi" frameType="TwoByOne">
+                                <tileContent/>
+                            </GenericTile>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="681px" top="748px">
+                        <layout:control>
+                            <Title text="Loves to cook, active member of various social groups" titleStyle="H5" width="220px" textAlign="Begin" visible="true" wrapping="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="682px" top="682px">
+                        <layout:control>
+                            <Title text="73 yrs" titleStyle="H4" width="131.59375px" textAlign="Begin" visible="true" wrapping="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="279px" top="712px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://video" size="25px" color="green" height="25px" width="25px" activeColor="orange" hoverColor="blue" visible="true" tooltip="Schedule video call"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="204px" top="715px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://comment" size="25px" color="green" height="25px" width="25px" activeColor="orange" hoverColor="blue" visible="true" tooltip="Chat"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="241px" top="713px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://outgoing-call" size="25px" color="green" height="25px" width="25px" activeColor="orange" hoverColor="blue" visible="true" tooltip="Schedule voice call"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="319px" top="711px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://date-time" size="25px" color="green" height="25px" width="25px" activeColor="orange" hoverColor="blue" visible="true" tooltip="See Preferred Timings" press="_onIconPress2"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="760px" top="713px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://video" size="25px" color="green" height="25px" width="25px" activeColor="orange" hoverColor="blue" visible="true" tooltip="Schedule video call"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="888px" top="647px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://person-placeholder" size="125px" height="125px" width="125px" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="685px" top="716px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://comment" size="25px" color="green" height="25px" width="25px" activeColor="orange" hoverColor="blue" visible="true" tooltip="Chat"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="411px" top="651px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://person-placeholder" size="125px" height="125px" width="125px" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="724px" top="712px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://outgoing-call" size="25px" color="green" height="25px" width="25px" activeColor="orange" hoverColor="blue" visible="true" tooltip="Schedule voice call"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="882px" top="418px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://person-placeholder" size="125px" height="125px" width="125px" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="800px" top="712px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://date-time" size="25px" color="green" height="25px" width="25px" activeColor="orange" hoverColor="blue" visible="true" tooltip="See Preferred Timings" press="_onIconPress3"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="402px" top="421px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://person-placeholder" size="125px" height="125px" width="125px" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="881px" top="167px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://person-placeholder" size="125px" height="125px" width="125px" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="207px" top="273px">
+                        <layout:control>
+                            <Title text="Retired lawyer, loves to read literature" titleStyle="H5" width="175px" textAlign="Begin" visible="true" wrapping="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="190px" top="143px">
+                        <layout:control>
+                            <GenericTile header="Krishnamurthy" subheader="Madurai" frameType="TwoByOne">
+                                <tileContent/>
+                            </GenericTile>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="205px" top="205px">
+                        <layout:control>
+                            <Title text="65 yrs" titleStyle="H4" width="131.59375px" textAlign="Begin" visible="true" wrapping="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="405px" top="171px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://person-placeholder" size="125px" height="125px" width="125px" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="284px" top="236px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://video" size="25px" color="green" height="25px" width="25px" activeColor="orange" hoverColor="blue" visible="true" tooltip="Schedule video call"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="203px" top="271px">
+                        <layout:control>
+                            <Title text="Retired Lawyer, Loves to read literature" titleStyle="H5" width="200px" textAlign="Begin" visible="true" wrapping="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="204px" top="237px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://comment" size="25px" color="green" height="25px" width="25px" activeColor="orange" hoverColor="blue" visible="true" tooltip="Chat"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="244px" top="236px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://outgoing-call" size="25px" color="green" height="25px" width="25px" activeColor="orange" hoverColor="blue" visible="true" tooltip="Schedule voice call"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="325px" top="234px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://date-time" size="25px" color="green" height="25px" width="25px" activeColor="orange" hoverColor="blue" visible="true" tooltip="See Preferred Timings" press="_onIconPress4"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="203px" top="490px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://comment" size="25px" color="green" height="25px" width="25px" activeColor="orange" hoverColor="blue" visible="true" tooltip="Chat"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="278px" top="489px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://video" size="25px" color="green" height="25px" width="25px" activeColor="orange" hoverColor="blue" visible="true" tooltip="Schedule video call"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="242px" top="487px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://outgoing-call" size="25px" color="green" height="25px" width="25px" activeColor="orange" hoverColor="blue" visible="true" tooltip="Schedule voice call"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="318px" top="489px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://date-time" size="25px" color="green" height="25px" width="25px" activeColor="orange" hoverColor="blue" visible="true" tooltip="See Preferred Timings" press="_onIconPress5"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="207px" top="757px">
+                        <layout:control>
+                            <Title text="Loves to Sing" titleStyle="H5" width="200px" textAlign="Begin" visible="true" wrapping="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="203px" top="533px">
+                        <layout:control>
+                            <Title text="Retired Teacher" titleStyle="H5" width="200px" textAlign="Begin" visible="true" wrapping="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="320px" top="73px">
+                        <layout:control>
+                            <Title text="Some Recommendations based on your selected preferences" titleStyle="H2" width="auto" textAlign="Begin" visible="true" wrapping="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="636px" top="840px">
+                        <layout:control>
+                            <Button text="Call Space" type="Emphasized" iconFirst="true" width="150px" enabled="true" visible="true" tooltip="Schedule Calls, View your upcoming meetings" iconDensityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="431px" top="840px">
+                        <layout:control>
+                            <Button text="Meeting History" type="Emphasized" iconFirst="true" width="150px" enabled="true" visible="true" tooltip="View your account's call history" iconDensityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="9px" top="5px">
+                        <layout:control>
+                            <Image src="/webapp/resources/LogoBird_TransparentBG.png" height="60px" width="40px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="54px" top="4px">
+                        <layout:control>
+                            <Image src="/webapp/resources/Rekindle_Text_Only.png" height="64.68000000px" width="112.3125px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="521px" top="23px">
+                        <layout:control>
+                            <Title text="User Dashboard" titleStyle="H1" width="auto" textAlign="Begin" visible="true" wrapping="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                </layout:positions>
+            </layout:AbsoluteLayout>
+        </content>
+        <footer>
+            <OverflowToolbar width="100%" height="46px" design="Auto" enabled="true" visible="true">
+                <content>
+                    <ToolbarSpacer width=""/>
+                    <Button text="Your Profile" type="Emphasized" icon="sap-icon://user-edit" iconFirst="true" width="auto" enabled="true" visible="true" tooltip="View your profile" iconDensityAware="false"/>
+                    <Button text="Log Out" type="Reject" icon="sap-icon://log" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress"/>
+                </content>
+            </OverflowToolbar>
+        </footer>
+        <headerContent/>
+        <subHeader/>
+        <customHeader/>
+    </Page>
+</mvc:View>

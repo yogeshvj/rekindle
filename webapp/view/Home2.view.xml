@@ -1,0 +1,64 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.reKindle.controller.Home2" xmlns="sap.m" xmlns:layout="sap.ui.commons.layout">
+    <Page showHeader="false" title="Rekindle- Bringing Back the Touch of Love" showFooter="true" showNavButton="false" enableScrolling="false">
+        <content>
+            <layout:AbsoluteLayout horizontalScrolling="Hidden" verticalScrolling="Auto">
+                <layout:positions>
+                    <layout:PositionContainer left="0px" top="123px">
+                        <layout:control>
+                            <Image src="/webapp/resources/Home_Image.jpg" height="741.8375244140625px" width="1280px" visible="true" densityAware="false" class="sapUiResponsiveMargin"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="34px" top="22px">
+                        <layout:control>
+                            <Image src="/webapp/resources/LogoBird_TransparentBG.png" height="98px" width="66px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="114px" top="26px">
+                        <layout:control>
+                            <Image src="/webapp/resources/Rekindle_Text_Only.png" height="98px" width="231.6750030517578px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="1038px" top="56px">
+                        <layout:control>
+                            <MenuButton text="Home" type="Transparent" icon="sap-icon://home" width="175.26000000px" enabled="true" buttonMode="Regular" useDefaultActionOnly="false" class="sapUiResponsiveMargin">
+                                <menu>
+                                    <Menu title="Menu">
+                                        <items>
+                                            <MenuItem text="Login / Sign Up" enabled="true" icon="sap-icon://add-employee" visible="true" startsSection="false" class="sapUiResponsiveMargin" press="_onMenuItemPress">
+                                                <items/>
+                                            </MenuItem>
+                                            <MenuItem text="Features" enabled="true" icon="sap-icon://example" visible="true" startsSection="false" press="_onMenuItemPress1">
+                                                <items/>
+                                            </MenuItem>
+                                            <MenuItem text="About Us" enabled="true" icon="sap-icon://company-view" visible="true" startsSection="false" class="sapUiResponsiveMargin" press="_onMenuItemPress2">
+                                                <items/>
+                                            </MenuItem>
+                                            <MenuItem text="Contact Us" enabled="true" icon="sap-icon://customer-briefing" visible="true" startsSection="false" class="sapUiResponsiveMargin" press="_onMenuItemPress3">
+                                                <items/>
+                                            </MenuItem>
+                                        </items>
+                                    </Menu>
+                                </menu>
+                            </MenuButton>
+                        </layout:control>
+                    </layout:PositionContainer>
+                </layout:positions>
+            </layout:AbsoluteLayout>
+        </content>
+        <footer>
+            <OverflowToolbar width="100%" height="200px" design="Transparent" enabled="true" visible="true">
+                <content>
+                    <ToolbarSpacer width=""/>
+                    <Button text="" type="Default" icon="/webapp/resources/instagram.png" iconFirst="true" width="auto" enabled="true" visible="true" tooltip="Follow Us" iconDensityAware="false" class="sapUiTinyMargin"/>
+                    <Button text="" type="Default" icon="/webapp/resources/twitter.png" iconFirst="true" width="auto" enabled="true" visible="true" tooltip="Follow Us" iconDensityAware="false" class="sapUiTinyMargin"/>
+                    <ToolbarSpacer width=""/>
+                </content>
+            </OverflowToolbar>
+        </footer>
+        <headerContent>
+            <Image src="/webapp/resources/LogoBird_Square.PNG" height="auto" width="50px" visible="true" densityAware="false"/>
+        </headerContent>
+        <subHeader/>
+        <customHeader/>
+    </Page>
+</mvc:View>
